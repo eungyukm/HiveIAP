@@ -1,0 +1,14 @@
+<dependencies>
+  <androidPackages>
+     <repositories>
+          <repository>https://repo.maven.apache.org/maven2</repository>
+    </repositories>
+    
+    <androidPackage spec="com.com2us.android.hive:hive-authv4-device-management:24.1.2"/>
+
+  </androidPackages>
+
+  <iosPods>
+      <iosPod name="HiveDeviceManagement" version="24.1.2"/>
+  </iosPods>
+</dependencies>

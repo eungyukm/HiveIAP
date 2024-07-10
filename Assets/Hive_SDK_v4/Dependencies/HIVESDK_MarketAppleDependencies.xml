@@ -1,0 +1,9 @@
+<dependencies>
+  <androidPackages>
+
+  </androidPackages>
+
+  <iosPods>
+      <iosPod name="HiveIAPV4" version="24.1.2"/>
+  </iosPods>
+</dependencies>

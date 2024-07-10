@@ -1,0 +1,11 @@
+<dependencies>
+  <androidPackages>
+     <repositories>
+          <repository>https://repo.maven.apache.org/maven2</repository>
+    </repositories>
+    
+    <androidPackage spec="com.com2us.android.hive:hive-iapv4-market-facebook-cloudgame:24.1.2"/>
+
+  </androidPackages>
+
+</dependencies>

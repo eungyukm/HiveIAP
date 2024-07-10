@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        // Add Hive(for Huawei)
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        maven {
+            url "https://repo.maven.apache.org/maven2" // Assets/Hive_SDK_v4/Editor/HIVESDK_DefaultDependencies.xml:12, Assets/Hive_SDK_v4/Editor/HIVESDK_HerculesDependencies.xml:12, Assets/Hive_SDK_v4/Editor/HIVESDK_HiveAnalyticsConsentModeDependencies.xml:5, Assets/Hive_SDK_v4/Editor/HIVESDK_HiveDataStoreDependencies.xml:11, Assets/Hive_SDK_v4/Editor/HIVESDK_HiveDeviceManagementDependencies.xml:5, Assets/Hive_SDK_v4/Editor/HIVESDK_HiveGoogleInAppReviewDependencies.xml:11, Assets/Hive_SDK_v4/Editor/HIVESDK_HiveGoogleInAppUpdateDependencies.xml:11, Assets/Hive_SDK_v4/Editor/HIVESDK_HivePromotionDependencies.xml:5, Assets/Hive_SDK_v4/Editor/HIVESDK_MarketGoogleDependencies.xml:5, Assets/Hive_SDK_v4/Editor/HIVESDK_ProviderGoogleDependencies.xml:11, Assets/Hive_SDK_v4/Editor/HIVESDK_ProviderRecaptchaDependencies.xml:5, Assets/Hive_SDK_v4/Editor/HIVESDKDependencies.xml:14
+        }
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

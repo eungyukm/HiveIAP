@@ -1,0 +1,12 @@
+<dependencies>
+  <androidPackages>
+     <repositories>
+          <repository>https://repo.maven.apache.org/maven2</repository>
+          <repository>https://repo.onestore.co.kr/repository/onestore-sdk-public</repository>
+    </repositories>
+    
+    <androidPackage spec="com.com2us.android.hive:hive-iapv4-market-onestore:24.1.2"/>
+
+  </androidPackages>
+
+</dependencies>

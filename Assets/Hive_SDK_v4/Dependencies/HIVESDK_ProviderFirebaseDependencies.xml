@@ -1,0 +1,13 @@
+<dependencies>
+  <androidPackages>
+     <repositories>
+          <repository>https://repo.maven.apache.org/maven2</repository>
+    </repositories>
+    
+    <androidPackage spec="com.com2us.android.hive:hive-analytics-provider-firebase:24.1.2"/>
+
+  </androidPackages>
+  <iosPods>
+      <iosPod name="HiveAnalyticsProviderFirebase" version="24.1.2"/><!-- FirebaseAnalytics -->
+  </iosPods>
+</dependencies>

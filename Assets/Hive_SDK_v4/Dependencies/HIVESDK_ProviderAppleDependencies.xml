@@ -1,0 +1,9 @@
+<dependencies>
+  <androidPackages>
+
+  </androidPackages>
+
+  <iosPods>
+      <iosPod name="HiveAuthV4ProviderAppleGameCenter" version="24.1.2"/>
+  </iosPods>
+</dependencies>

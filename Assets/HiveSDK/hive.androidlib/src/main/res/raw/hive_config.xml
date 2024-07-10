@@ -1,0 +1,63 @@
+<properties>
+  <useAuthv1>false</useAuthv1>
+  <useAuthv4>true</useAuthv4>
+  <appId>com.playwith.rohan2.kr.android.google</appId>
+  <facebookAppId />
+  <providers>
+    <facebook id="" clientToken="">
+      <permissions />
+    </facebook>
+    <google playAppId="36786866366" serverClientId="36786866366-1lsc191v6deukog31alk65umpiumo1ja.apps.googleusercontent.com" />
+    <googleplaygames playAppId="" serverClientId="" />
+    <qq id="" />
+    <wechat id="" secret="" paymentKey="" />
+    <line channelId="" />
+    <weverse clientId="" />
+    <signinwithapple serviceid="" />
+    <Adjust name="Adjust" id="unused" key="" secretId="" info1="" info2="" info3="" info4="">
+      <events>
+        <event name="Purchase" value="" />
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Adjust>
+    <Singular name="Singular" id="" key="">
+      <events>
+        <event name="Purchase" value="" />
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Singular>
+    <AppsFlyer name="AppsFlyer" id="unused" key="" itunesConnectAppId="">
+      <events>
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </AppsFlyer>
+    <Firebase name="Firebase">
+      <events>
+        <event name="TutorialComplete" value="tutorial_complete" />
+        <event name="Update" value="update" />
+        <event name="Purchase" value="purchase" />
+        <event name="Open" value="open" />
+      </events>
+    </Firebase>
+  </providers>
+  <facebookClientToken />
+  <googlePlayAppId>36786866366</googlePlayAppId>
+  <googleServerClientId>36786866366-1lsc191v6deukog31alk65umpiumo1ja.apps.googleusercontent.com</googleServerClientId>
+  <googlePlayGamesAppId />
+  <googlePlayGamesServerClientId />
+  <qqAppId />
+  <wechatAppId />
+  <wechatAppSecret />
+  <wechatPaymentKey />
+  <zone>sandbox</zone>
+  <hivePermissionViewOn>true</hivePermissionViewOn>
+  <useLog>false</useLog>
+  <ageGateU13>false</ageGateU13>
+  <hiveOrientation>undefined</hiveOrientation>
+  <permissions>
+    <sdwrite>false</sdwrite>
+  </permissions>
+</properties>

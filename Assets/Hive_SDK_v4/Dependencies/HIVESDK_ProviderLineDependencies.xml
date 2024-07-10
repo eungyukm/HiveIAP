@@ -1,0 +1,14 @@
+﻿<dependencies>
+  <androidPackages>
+     <repositories>
+          <repository>https://repo.maven.apache.org/maven2</repository>
+          <repository>https://jcenter.bintray.com</repository>
+    </repositories>
+    
+    <androidPackage spec="com.com2us.android.hive:hive-authv4-provider-line:24.1.2"/>
+
+  </androidPackages>
+  <iosPods>
+      <iosPod name="HiveAuthV4ProviderLine" version="24.1.2"/>
+  </iosPods>
+</dependencies>

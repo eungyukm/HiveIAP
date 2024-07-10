@@ -1,0 +1,36 @@
+<dependencies>
+  <packages>
+    <package>com.android.installreferrer:installreferrer:2.2</package>
+    <package>com.com2us.android.hive:hive-analytics-consent-mode:24.1.2</package>
+    <package>com.com2us.android.hive:hive-authv4-device-management:24.1.2</package>
+    <package>com.com2us.android.hive:hive-authv4-google-inappupdate:24.1.2</package>
+    <package>com.com2us.android.hive:hive-authv4-google-recaptcha:24.1.2</package>
+    <package>com.com2us.android.hive:hive-authv4-provider-google-signin:24.1.2</package>
+    <package>com.com2us.android.hive:hive-datastore:24.1.2</package>
+    <package>com.com2us.android.hive:hive-hercules:24.1.2</package>
+    <package>com.com2us.android.hive:hive-iapv4-market-google:24.1.2</package>
+    <package>com.com2us.android.hive:hive-plugin-java:24.1.2</package>
+    <package>com.com2us.android.hive:hive-promotion:24.1.2</package>
+    <package>com.com2us.android.hive:hive-promotion-google-inappreview:24.1.2</package>
+    <package>com.com2us.android.hive:hive-sdk:24.1.2</package>
+    <package>com.com2us.android.hive:youtube-helper:1.0.1</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a" />
+    <setting name="bundleId" value="com.playwith.rohan2.kr" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useFullCustomMavenRepoPathWhenExport" value="True" />
+    <setting name="useFullCustomMavenRepoPathWhenNotExport" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>

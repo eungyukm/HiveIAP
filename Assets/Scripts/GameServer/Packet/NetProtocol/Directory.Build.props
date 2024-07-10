@@ -1,0 +1,27 @@
+﻿<Project>
+	<PropertyGroup>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<BaseIntermediateOutputPath>..\..\Bin\_obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<BaseOutputPath>..\..\Bin\_output\Debug\$(MSBuildProjectName)</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)</OutputPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)\Debug</IntermediateOutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<BaseOutputPath>..\..\Bin\_output\Release\$(MSBuildProjectName)</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)</OutputPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)\Release</IntermediateOutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Protocol|AnyCPU'">
+		<BaseOutputPath>..\..\Bin\_output\Debug\$(MSBuildProjectName)</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)</OutputPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)\Debug</IntermediateOutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unity|AnyCPU'">
+		<BaseOutputPath>..\..\Bin\_output\Debug\$(MSBuildProjectName)</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)</OutputPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)\Debug</IntermediateOutputPath>
+	</PropertyGroup>
+</Project>
