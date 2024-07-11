@@ -1,0 +1,60 @@
+<properties>
+  <useAuthv1>false</useAuthv1>
+  <useAuthv4>true</useAuthv4>
+  <appId>com.playwith.rohan2.kr.ios.apple</appId>
+  <universalLink />
+  <facebookAppId />
+  <providers>
+    <facebook id="" clientToken="">
+      <permissions />
+    </facebook>
+    <google clientId="36786866366-oo7jj02mvkjjd14cev60jg19dhlck1b9.apps.googleusercontent.com" reversedClientId="com.googleusercontent.apps.36786866366-oo7jj02mvkjjd14cev60jg19dhlck1b9" serverClientId="36786866366-1lsc191v6deukog31alk65umpiumo1ja.apps.googleusercontent.com" />
+    <qq id="" />
+    <wechat id="" secret="" />
+    <vk id="" />
+    <line channelId="" />
+    <weverse clientId="" />
+    <signinwithapple serviceid="com.playwith.rohan2.kr.siwa" />
+    <Adjust name="Adjust" id="unused" key="" secretId="" info1="" info2="" info3="" info4="">
+      <events>
+        <event name="Purchase" value="" />
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Adjust>
+    <Singular name="Singular" id="" key="">
+      <events>
+        <event name="Purchase" value="" />
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Singular>
+    <AppsFlyer name="AppsFlyer" id="unused" key="" itunesConnectAppId="">
+      <events>
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </AppsFlyer>
+    <Firebase name="Firebase">
+      <events>
+        <event name="TutorialComplete" value="tutorial_complete" />
+        <event name="Update" value="update" />
+        <event name="Purchase" value="purchase" />
+        <event name="Open" value="open" />
+      </events>
+    </Firebase>
+  </providers>
+  <facebookClientToken />
+  <googleClientId>36786866366-oo7jj02mvkjjd14cev60jg19dhlck1b9.apps.googleusercontent.com</googleClientId>
+  <googleReversedClientId>com.googleusercontent.apps.36786866366-oo7jj02mvkjjd14cev60jg19dhlck1b9</googleReversedClientId>
+  <googleServerClientId>36786866366-1lsc191v6deukog31alk65umpiumo1ja.apps.googleusercontent.com</googleServerClientId>
+  <qqAppId />
+  <wechatAppId />
+  <wechatAppSecret />
+  <vkAppId />
+  <zone>sandbox</zone>
+  <hivePermissionViewOn>true</hivePermissionViewOn>
+  <useLog>true</useLog>
+  <ageGateU13>false</ageGateU13>
+  <hiveOrientation>undefined</hiveOrientation>
+</properties>
